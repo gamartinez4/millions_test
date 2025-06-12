@@ -1,0 +1,34 @@
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Infrastructure.deps.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Infrastructure.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Domain.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.AssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million..03ABB191.Up2Date
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\refint\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\ref\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Infrastructure.deps.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Infrastructure.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Domain.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\bin\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.AssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million..03ABB191.Up2Date
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\refint\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\ref\Million.Infrastructure.dll

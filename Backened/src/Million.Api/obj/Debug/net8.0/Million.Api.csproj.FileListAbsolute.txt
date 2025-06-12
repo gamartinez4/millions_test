@@ -1,0 +1,120 @@
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.exe
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.deps.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.runtimeconfig.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\DnsClient.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Snappier.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Infrastructure.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Domain.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.csproj.AssemblyReference.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.AssemblyInfoInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.AssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.csproj.CoreCompileInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.Million.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.Million.Api.props
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Million.Api.props
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Million.Api.props
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\scopedcss\bundle\Million.Api.styles.css
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million..E7E7DCA6.Up2Date
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\refint\Million.Api.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.genruntimeconfig.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Api\obj\Debug\net8.0\ref\Million.Api.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.exe
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.deps.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.runtimeconfig.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Api.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\DnsClient.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Snappier.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Infrastructure.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Million.Domain.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.csproj.AssemblyReference.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.AssemblyInfoInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.AssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.csproj.CoreCompileInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.Million.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.Million.Api.props
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Million.Api.props
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Million.Api.props
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\scopedcss\bundle\Million.Api.styles.css
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million..E7E7DCA6.Up2Date
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\refint\Million.Api.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.genruntimeconfig.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\ref\Million.Api.dll
