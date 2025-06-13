@@ -32,3 +32,4 @@ C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrast
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\refint\Million.Infrastructure.dll
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.pdb
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\ref\Million.Infrastructure.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Infrastructure\obj\Debug\net8.0\Million.Infrastructure.sourcelink.json

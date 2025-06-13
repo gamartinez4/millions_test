@@ -22,3 +22,4 @@ C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Domain\
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Domain\obj\Debug\net8.0\refint\Million.Domain.dll
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Domain\obj\Debug\net8.0\Million.Domain.pdb
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Domain\obj\Debug\net8.0\ref\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Domain\obj\Debug\net8.0\Million.Domain.sourcelink.json
