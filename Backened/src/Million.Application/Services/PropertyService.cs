@@ -35,7 +35,7 @@ namespace Million.Application.Services
                 Address = property.Address,
                 Price = property.Price,
                 Year = property.Year,
-                OwnerName = property.Owner?.Name ?? "N/A" // Placeholder
+  
             };
         }
 
@@ -54,7 +54,6 @@ namespace Million.Application.Services
                 Address = property.Address,
                 Price = property.Price,
                 Year = property.Year,
-                OwnerName = property.Owner?.Name ?? "N/A" // Placeholder
             };
         }
 
@@ -85,8 +84,7 @@ namespace Million.Application.Services
                 Name = p.Name,
                 Address = p.Address,
                 Price = p.Price,
-                Year = p.Year,
-                OwnerName = p.Owner?.Name ?? "N/A" // Placeholder
+                Year = p.Year
             });
         }
 

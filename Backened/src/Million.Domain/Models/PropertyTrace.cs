@@ -10,14 +10,10 @@ namespace Million.Domain.Models
         public decimal Value { get; set; }
         public decimal Tax { get; set; }
         public int PropertyId { get; set; }
-        public Property Property { get; set; }
+     
 
-        public PropertyTrace(DateTime dateSale, string name, decimal value, decimal tax, int propertyId)
+        public PropertyTrace(int id,DateTime dateSale, string name, decimal value, decimal tax, int propertyId)
         {
-            if (dateSale > DateTime.Now)
-            {
-                throw new ArgumentException("Sale date cannot be in the future.", nameof(dateSale));
-            }
             if (string.IsNullOrWhiteSpace(name))
             {
                 throw new ArgumentException("Name cannot be empty.", nameof(name));

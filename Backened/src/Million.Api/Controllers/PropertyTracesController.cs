@@ -4,6 +4,7 @@ using Million.Application.Contracts;
 using Million.Application.DTOs;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System;
 
 namespace Million.Api.Controllers
 {
@@ -40,8 +41,15 @@ namespace Million.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<PropertyTraceResponse>> Post([FromBody] PropertyTraceRequest traceRequest)
         {
-            var createdTrace = await _traceService.AddTraceToPropertyAsync(traceRequest);
-            return CreatedAtAction(nameof(Get), new { id = createdTrace.Id }, createdTrace);
+            try
+            {
+                var createdTrace = await _traceService.AddTraceToPropertyAsync(traceRequest);
+                return CreatedAtAction(nameof(Get), new { id = createdTrace.Id }, createdTrace);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpPut("{id}")]
@@ -56,6 +64,13 @@ namespace Million.Api.Controllers
         {
             await _traceService.DeleteTraceAsync(id);
             return NoContent();
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<PropertyTraceResponse>>> GetAll()
+        {
+            var traces = await _traceService.GetAllTracesAsync();
+            return Ok(traces);
         }
     }
 } 

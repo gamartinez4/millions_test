@@ -11,5 +11,6 @@ namespace Million.Application.Contracts
         Task<PropertyTraceResponse> AddTraceToPropertyAsync(PropertyTraceRequest traceRequest);
         Task UpdateTraceAsync(int id, PropertyTraceRequest traceRequest);
         Task DeleteTraceAsync(int id);
+        Task<IEnumerable<PropertyTraceResponse>> GetAllTracesAsync();
     }
 } 

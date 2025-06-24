@@ -119,3 +119,5 @@ C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.genruntimeconfig.cache
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\ref\Million.Api.dll
 C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\obj\Debug\net8.0\Million.Api.sourcelink.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll

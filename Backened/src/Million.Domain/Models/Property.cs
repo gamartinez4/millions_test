@@ -10,7 +10,6 @@ namespace Million.Domain.Models
         public decimal Price { get; set; }
         public int Year { get; set; }
         public int OwnerId { get; set; }
-        public Owner Owner { get; set; }
 
         public Property(string name, string address, decimal price, int year, int ownerId)
         {

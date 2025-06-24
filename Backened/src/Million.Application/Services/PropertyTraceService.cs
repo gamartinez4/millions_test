@@ -4,6 +4,7 @@ using Million.Domain.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System;
 
 namespace Million.Application.Services
 {
@@ -18,8 +19,16 @@ namespace Million.Application.Services
 
         public async Task<PropertyTraceResponse> AddTraceToPropertyAsync(PropertyTraceRequest traceRequest)
         {
+            // Validate if property already has a trace (sold)
+            var existingTraces = await _traceRepository.FindAsync(pt => pt.PropertyId == traceRequest.PropertyId);
+            if (existingTraces.Any())
+            {
+                throw new InvalidOperationException("La propiedad ya fue comprada y no puede volver a comprarse.");
+            }
+
             var propertyTrace = new PropertyTrace(
-                traceRequest.DateSale,
+                traceRequest.Id,
+                DateTime.UtcNow,
                 traceRequest.Name,
                 traceRequest.Value,
                 traceRequest.Tax,
@@ -64,6 +73,12 @@ namespace Million.Application.Services
                 trace.PropertyId = traceRequest.PropertyId;
                 _traceRepository.Update(trace);
             }
+        }
+
+        public async Task<IEnumerable<PropertyTraceResponse>> GetAllTracesAsync()
+        {
+            var traces = await _traceRepository.GetAllAsync();
+            return traces.Select(MapToTraceResponse);
         }
 
         private PropertyTraceResponse MapToTraceResponse(PropertyTrace trace)

@@ -5,6 +5,7 @@ using System.Text;
 using Million.Application.Contracts;
 using Million.Application.Services;
 using Million.Infrastructure.Repositories;
+using Million.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,15 +22,19 @@ builder.Services.AddScoped<IPropertyImageService, PropertyImageService>();
 builder.Services.AddSingleton<IPropertyTraceRepository, PropertyTraceRepository>();
 builder.Services.AddScoped<IPropertyTraceService, PropertyTraceService>();
 
+builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongoDbSettings"));
+builder.Services.AddSingleton<IMongoDbContext, MongoDbContext>();
+
 // CORS Configuration
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
         builder =>
         {
-            builder.AllowAnyOrigin()
+            builder.SetIsOriginAllowed(_ => true)
                    .AllowAnyMethod()
-                   .AllowAnyHeader();
+                   .AllowAnyHeader()
+                   .AllowCredentials();
         });
 });
 

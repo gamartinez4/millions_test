@@ -11,5 +11,6 @@ namespace Million.Application.Contracts
         Task<OwnerResponse> CreateOwnerAsync(OwnerRequest ownerRequest);
         Task UpdateOwnerAsync(int id, OwnerRequest ownerRequest);
         Task DeleteOwnerAsync(int id);
+        Task<LoginResponse> AuthenticateAsync(OwnerLoginRequest loginRequest);
     }
 } 

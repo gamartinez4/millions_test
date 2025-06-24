@@ -34,8 +34,8 @@ namespace Million.Application.Tests
 
             // Assert
             _mockPropertyRepository.Verify(repo => repo.AddAsync(It.IsAny<Property>()), Times.Once);
-            Assert.IsNotNull(result);
-            Assert.AreEqual(propertyRequest.Name, result.Name);
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result.Name, Is.EqualTo(propertyRequest.Name));
         }
 
         [Test]
@@ -49,8 +49,8 @@ namespace Million.Application.Tests
             var result = await _propertyService.GetPropertyByIdAsync(1);
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(property.Name, result.Name);
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result.Name, Is.EqualTo(property.Name));
         }
 
         [Test]
@@ -69,8 +69,8 @@ namespace Million.Application.Tests
             var result = await _propertyService.GetPropertiesFilteredAsync("House", null, null, null);
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(2, result.Count());
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result.Count(), Is.EqualTo(2));
         }
     }
 } 

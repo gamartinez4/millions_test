@@ -19,6 +19,20 @@ namespace Million.Api.Controllers
             _ownerService = ownerService;
         }
 
+        [AllowAnonymous]
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] OwnerLoginRequest loginRequest)
+        {
+            var loginResponse = await _ownerService.AuthenticateAsync(loginRequest);
+
+            if (loginResponse == null)
+            {
+                return Unauthorized();
+            }
+
+            return Ok(loginResponse);
+        }
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OwnerResponse>>> Get()
         {
@@ -37,6 +51,7 @@ namespace Million.Api.Controllers
             return Ok(owner);
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult<OwnerResponse>> Post([FromBody] OwnerRequest ownerRequest)
         {
