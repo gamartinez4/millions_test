@@ -173,24 +173,10 @@ cd Backened
 dotnet test
 ```
 
-## 🤝 Contribución
-
-1. 🍴 Fork el proyecto
-2. 🔨 Crea tu Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. 💾 Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 Push a la Branch (`git push origin feature/AmazingFeature`)
-5. 🔃 Abre un Pull Request
-
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
 
 ---
 
-<div align="center">
-  <p>Desarrollado con ❤️ por Tu Equipo</p>
-  <p>
-    <a href="https://github.com/tu-usuario">GitHub</a> •
-    <a href="https://tu-sitio-web.com">Website</a>
-  </p>
-</div>
+
