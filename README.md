@@ -1,3 +1,7 @@
+
+
+![Grabación de pantalla 2025-06-23 122512](https://github.com/user-attachments/assets/8f42ebcc-bb18-42a8-808b-d2dfbc10719f)
+
 # 🏢 Million Project
 
 > Sistema de Gestión Inmobiliaria con Next.js y .NET Core
@@ -7,7 +11,8 @@
 - [Tecnologías](#-tecnologías)
 - [Requisitos](#-requisitos)
 - [Instalación](#-instalación)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Estructura del Proyecto](#-estructura-del-proyecto)![Uploading Grabación de pantalla 2025-06-23 122512.gif…]()
+
 - [Uso](#-uso)
 - [Docker](#-docker)
 - [Desarrollo](#-desarrollo)
