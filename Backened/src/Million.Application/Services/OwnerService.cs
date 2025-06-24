@@ -105,7 +105,8 @@ namespace Million.Application.Services
                 Name = owner.Name,
                 Address = owner.Address,
                 Photo = owner.Photo,
-                Birthday = owner.Birthday
+                Birthday = owner.Birthday,
+                Username = owner.Username
             };
         }
 

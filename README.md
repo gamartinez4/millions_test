@@ -159,6 +159,20 @@ dotnet restore
 dotnet run --project src/Million.Api
 ```
 
+## 👨‍💻 Pruebas unitarias
+
+### Frontend
+```bash
+cd Frontend
+npm test -- --watchAll=false
+```
+
+### Backened
+```bash
+cd Backened
+dotnet test
+```
+
 ## 🤝 Contribución
 
 1. 🍴 Fork el proyecto

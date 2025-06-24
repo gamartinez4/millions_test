@@ -9,5 +9,6 @@ namespace Million.Application.DTOs
         public string Address { get; set; }
         public string Photo { get; set; }
         public DateTime Birthday { get; set; }
+        public string Username { get; set; }
     }
 } 
