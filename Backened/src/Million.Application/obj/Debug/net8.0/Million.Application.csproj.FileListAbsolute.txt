@@ -1,0 +1,47 @@
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.deps.json
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Domain.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.csproj.AssemblyReference.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.AssemblyInfoInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.AssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.csproj.CoreCompileInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million..D7ABA82E.Up2Date
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\refint\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\Millions project\Backened\src\Million.Application\obj\Debug\net8.0\ref\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.deps.json
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\bin\Debug\net8.0\Million.Domain.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.csproj.AssemblyReference.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.AssemblyInfoInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.AssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.csproj.CoreCompileInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million..D7ABA82E.Up2Date
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\refint\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\ref\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_project\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.sourcelink.json
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.deps.json
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\bin\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\bin\Debug\net8.0\Million.Domain.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\bin\Debug\net8.0\Million.Domain.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.csproj.AssemblyReference.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.AssemblyInfoInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.AssemblyInfo.cs
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.csproj.CoreCompileInputs.cache
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.sourcelink.json
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million..D7ABA82E.Up2Date
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\refint\Million.Application.dll
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\Million.Application.pdb
+C:\Users\gamar\OneDrive\Escritorio\millions_test\Backened\src\Million.Application\obj\Debug\net8.0\ref\Million.Application.dll
