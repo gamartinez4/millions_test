@@ -1864,11 +1864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Api\\Million.Api.csproj",
+      "projectUniqueName": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Api\\Million.Api.csproj",
       "projectName": "Million.Api",
-      "projectPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Api\\Million.Api.csproj",
+      "projectPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Api\\Million.Api.csproj",
       "packagesPath": "C:\\Users\\gamar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Api\\obj\\",
+      "outputPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1890,11 +1890,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Application\\Million.Application.csproj": {
-              "projectPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Application\\Million.Application.csproj"
+            "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Application\\Million.Application.csproj": {
+              "projectPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Application\\Million.Application.csproj"
             },
-            "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Infrastructure\\Million.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Infrastructure\\Million.Infrastructure.csproj"
+            "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Infrastructure\\Million.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Infrastructure\\Million.Infrastructure.csproj"
             }
           }
         }

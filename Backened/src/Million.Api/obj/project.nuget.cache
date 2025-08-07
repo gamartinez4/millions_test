@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uPQG3OU9DHjzsVKb+4GEF5fQ9LaTnXx2lQOtJIty3/wwilWtTtKscoMwm64WavCbW3uK94vXmDckECwTxd0TYg==",
+  "dgSpecHash": "f+fZ/Px++iN8AcK8TQiZ4Di6dY1hxR69Aqm7k6lGETND7Lf2M8k9yE6KLPOmL0A4QJZaKleelWvkjjYV7zK57g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Api\\Million.Api.csproj",
+  "projectFilePath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Api\\Million.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gamar\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\gamar\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6kmb5nuXMZ044eUkILlXjip8OZsF0qHZAJ7uMn8OL8w55DXFr8465qsIo2O3Y9mPH3pADVvy1ltSRqlxdo4zeg==",
+  "dgSpecHash": "5qMwlwQQ2/OY4EQ7ySs9mtKx0f1oMNKAYFekRIEayEgLkyJFhj9MS95WIKn1MDQ1mGBv6g8udKjnrb7gGTqgVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\Backened\\src\\Million.Infrastructure\\Million.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\gamar\\OneDrive\\Escritorio\\millions_test\\backened\\src\\Million.Infrastructure\\Million.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gamar\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\gamar\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
