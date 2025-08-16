@@ -10,7 +10,19 @@ export const useProperties = () => {
 		try {
 			setLoading(true)
 			setError(null)
-			const { data } = await axios.get('/api/properties')
+			
+			// Get token from localStorage
+			const token = localStorage.getItem('token')
+			
+			if (!token) {
+				throw new Error('No authentication token found')
+			}
+			
+			const { data } = await axios.get('/api/properties', {
+				headers: {
+					Authorization: `Bearer ${token}`
+				}
+			})
 			setProperties(data)
 		} catch (error) {
 			console.error('Failed to fetch properties', error)

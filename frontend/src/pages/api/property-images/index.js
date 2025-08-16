@@ -2,7 +2,7 @@ import axios from 'axios'
 import { API_BASE_URL } from '@/lib/config'
 
 export default async function handler(req, res) {
-    console.log('Entró')
+
 	if (req.method === 'GET') {
 		try {
 			const token = req.headers.authorization

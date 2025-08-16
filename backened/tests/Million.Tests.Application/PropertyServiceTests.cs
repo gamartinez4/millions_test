@@ -82,7 +82,7 @@ namespace Million.Tests.Application
         {
             // Arrange
             var updateRequest = new UpdatePropertyForSaleRequest { ForSale = true };
-            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property)null);
+            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property?)null);
 
             // Act & Assert
             var exception = await Should.ThrowAsync<ArgumentException>(
@@ -131,7 +131,7 @@ namespace Million.Tests.Application
         {
             // Arrange
             var updateRequest = new UpdatePropertyOwnerRequest { OwnerId = 5 };
-            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property)null);
+            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property?)null);
 
             // Act & Assert
             var exception = await Should.ThrowAsync<ArgumentException>(
@@ -197,7 +197,7 @@ namespace Million.Tests.Application
         {
             // Arrange
             var updateRequest = new UpdatePropertyPriceRequest { Price = 150000m };
-            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property)null);
+            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property?)null);
 
             // Act & Assert
             var exception = await Should.ThrowAsync<ArgumentException>(
@@ -267,7 +267,7 @@ namespace Million.Tests.Application
         public async Task GetPropertyByIdAsync_ShouldReturnNull_WhenPropertyNotExists()
         {
             // Arrange
-            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property)null);
+            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property?)null);
 
             // Act
             var result = await _propertyService.GetPropertyByIdAsync(999);
@@ -310,7 +310,7 @@ namespace Million.Tests.Application
         {
             // Arrange
             var updateRequest = new PropertyRequest { Name = "Updated Property" };
-            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property)null);
+            _mockPropertyRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Property?)null);
 
             // Act
             await _propertyService.UpdatePropertyAsync(999, updateRequest);

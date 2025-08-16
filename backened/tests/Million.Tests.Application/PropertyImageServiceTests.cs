@@ -66,7 +66,7 @@ namespace Million.Tests.Application
         public async Task GetImageByIdAsync_ShouldReturnNull_WhenImageNotExists()
         {
             // Arrange
-            _mockImageRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyImage)null);
+            _mockImageRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyImage?)null);
 
             // Act
             var result = await _imageService.GetImageByIdAsync(999);
@@ -150,7 +150,7 @@ namespace Million.Tests.Application
                 FileUrl = "http://example.com/new.png", 
                 Enabled = true 
             };
-            _mockImageRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyImage)null);
+            _mockImageRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyImage?)null);
 
             // Act
             await _imageService.UpdateImageAsync(999, updateRequest);
@@ -177,7 +177,7 @@ namespace Million.Tests.Application
         public async Task DeleteImageAsync_ShouldNotDelete_WhenImageNotExists()
         {
             // Arrange
-            _mockImageRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyImage)null);
+            _mockImageRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyImage?)null);
 
             // Act
             await _imageService.DeleteImageAsync(999);

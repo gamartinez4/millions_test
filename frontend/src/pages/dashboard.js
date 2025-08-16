@@ -6,6 +6,7 @@ import { useImages } from '@/hooks/useImages'
 import { useFilters } from '@/hooks/useFilters'
 import { useNavigation } from '@/hooks/useNavigation'
 import { usePropertiesWithImages } from '@/hooks/usePropertiesWithImages'
+import { useBuyProperty } from '@/hooks/useBuyProperty'
 import { getFirstPropertyImage, isPropertyOwned } from '@/utils/propertyFilters'
 import {
 	Container,
@@ -18,9 +19,12 @@ import {
 	TextField,
 	Button,
 	CardMedia,
+	Alert,
+	Snackbar,
+	CircularProgress,
 } from '@mui/material'
-import { Logout as LogoutIcon } from '@mui/icons-material'
-import { useEffect } from 'react'
+import { Logout as LogoutIcon, ShoppingCart as ShoppingCartIcon } from '@mui/icons-material'
+import { useEffect, useState } from 'react'
 import { useAuth } from '@/context/AuthContext'
 
 
@@ -62,8 +66,10 @@ export default WithAuth(DashboardPage)
 
 const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 	const { setSharedProperties } = useAuth()
+	const [snackbarOpen, setSnackbarOpen] = useState(false)
+	const [snackbarMessage, setSnackbarMessage] = useState('')
+	const [snackbarSeverity, setSnackbarSeverity] = useState('success')
 
-	
 	const displayProperties = useDisplayProperties(allProperties, user)
 	
 	const {
@@ -75,11 +81,82 @@ const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 	} = useFilters(displayProperties)
 
 	const { handleViewMyProperties, handleLogout, handleViewPropertyDetails } = useNavigation()
+	const { buyProperty, loading: buyLoading, error: buyError, clearError } = useBuyProperty()
 
 	const navigateToMyProperties = () => {
 		setSharedProperties(allProperties)
 		handleViewMyProperties()
 	}
+
+	/**
+	 * Handle property purchase
+	 * @param {object} property - Property to buy
+	 */
+	const handleBuyProperty = async (property) => {
+		try {
+			console.log('handleBuyProperty called with:', { property, user })
+			
+			if (!user?.id) {
+				console.error('User ID not found:', user)
+				showSnackbar('Error: Usuario no identificado', 'error')
+				return
+			}
+
+			if (!property?.id) {
+				console.error('Property ID not found:', property)
+				showSnackbar('Error: Propiedad no válida', 'error')
+				return
+			}
+
+			console.log('Attempting to buy property:', { propertyId: property.id, userId: user.id })
+
+			const success = await buyProperty(property.id, user.id)
+			
+			if (success) {
+				showSnackbar('¡Propiedad comprada exitosamente!', 'success')
+				// Optionally refresh the page or update the properties list
+				window.location.reload()
+			} else {
+				showSnackbar('Error al comprar la propiedad', 'error')
+			}
+		} catch (error) {
+			console.error('Buy property error:', error)
+			showSnackbar('Error al comprar la propiedad', 'error')
+		}
+	}
+
+	/**
+	 * Show snackbar with message
+	 * @param {string} message - Message to show
+	 * @param {string} severity - Severity level (success, error, warning, info)
+	 */
+	const showSnackbar = (message, severity = 'success') => {
+		setSnackbarMessage(message)
+		setSnackbarSeverity(severity)
+		setSnackbarOpen(true)
+	}
+
+	/**
+	 * Close snackbar
+	 */
+	const handleCloseSnackbar = () => {
+		setSnackbarOpen(false)
+		clearError()
+	}
+
+	// Show error in snackbar if buy error occurs
+	useEffect(() => {
+		if (buyError) {
+			showSnackbar(buyError, 'error')
+		}
+	}, [buyError])
+
+	// Debug user data (can be removed in production)
+	useEffect(() => {
+		if (user) {
+			console.log('Dashboard user data:', user)
+		}
+	}, [user])
 
 	return (
 		<Box sx={{ minHeight: '100vh', bgcolor: 'grey.50' }}>
@@ -188,6 +265,17 @@ const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 								const isOwned = isPropertyOwned(property, user)
 								const firstImage = getFirstPropertyImage(property)
 								
+								// Debug property info (can be removed in production)
+								if (property.forSale && !isOwned) {
+									console.log('Property available for purchase:', {
+										id: property.id,
+										name: property.name,
+										forSale: property.forSale,
+										isOwned,
+										userId: user?.id
+									})
+								}
+								
 								return (
 									<Grid xs={12} sm={6} lg={4} key={property.id}>
 										<Card 
@@ -258,17 +346,38 @@ const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 												)}
 												
 												{property.forSale && !isOwned && (
-													<Box sx={{ 
-														bgcolor: 'success.main', 
-														color: 'white', 
-														p: 1, 
-														borderRadius: 1,
-														mt: 1,
-														textAlign: 'center'
-													}}>
-														<Typography variant="body2">
-															¡Disponible para comprar!
-														</Typography>
+													<Box sx={{ mt: 1 }}>
+														<Box sx={{ 
+															bgcolor: 'success.main', 
+															color: 'white', 
+															p: 1, 
+															borderRadius: 1,
+															textAlign: 'center',
+															mb: 1
+														}}>
+															<Typography variant="body2">
+																¡Disponible para comprar!
+															</Typography>
+														</Box>
+														<Button
+															fullWidth
+															variant="contained"
+															color="primary"
+															startIcon={buyLoading ? <CircularProgress size={20} color="inherit" /> : <ShoppingCartIcon />}
+															onClick={(e) => {
+																e.stopPropagation()
+																handleBuyProperty(property)
+															}}
+															disabled={buyLoading}
+															sx={{
+																bgcolor: 'success.main',
+																'&:hover': {
+																	bgcolor: 'success.dark'
+																}
+															}}
+														>
+															{buyLoading ? 'Comprando...' : 'Comprar'}
+														</Button>
 													</Box>
 												)}
 											</CardContent>
@@ -308,6 +417,22 @@ const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 					</Box>
 				</Box>
 			</Container>
+
+			{/* Snackbar for notifications */}
+			<Snackbar
+				open={snackbarOpen}
+				autoHideDuration={6000}
+				onClose={handleCloseSnackbar}
+				anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+			>
+				<Alert 
+					onClose={handleCloseSnackbar} 
+					severity={snackbarSeverity}
+					sx={{ width: '100%' }}
+				>
+					{snackbarMessage}
+				</Alert>
+			</Snackbar>
 		</Box>
 	)
 }

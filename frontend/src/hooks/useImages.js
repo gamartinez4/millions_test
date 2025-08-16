@@ -14,8 +14,19 @@ export const useImages = () => {
 			setLoading(true)
 			setError(null)
 			
+			// Get token from localStorage
+			const token = localStorage.getItem('token')
+			
+			if (!token) {
+				throw new Error('No authentication token found')
+			}
+			
 			// Llamar a la API SSR que a su vez llama al backend
-			const { data } = await axios.get('/api/property-images/')
+			const { data } = await axios.get('/api/property-images/', {
+				headers: {
+					Authorization: `Bearer ${token}`
+				}
+			})
 			
 			setImages(data)
 		} catch (error) {
