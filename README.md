@@ -4,8 +4,7 @@
 - [Technologies](#-technologies)
 - [Requirements](#-requirements)
 - [Installation](#-installation)
-- [Project Structure](#-project-structure)
-- [Usage](#-usage)
+- [Project Structure](#-project-structure)- [Usage](#-usage)
 - [Docker](#-docker)
 - [Unit testing](#-development)
 - [Contribution](#-contribution)
@@ -66,30 +65,7 @@ Million Project is a modern web application for real estate management that allo
    docker-compose ps
    ```
 
-## 📁 Project Structure
-millions_project/
-├── Frontend/ # Next.js application
-│ ├── src/
-│ │ ├── app/ # Pages and routes
-│ │ ├── components/ # React components
-│ │ └── context/ # React contexts
-│ └── public/ # Static files
-│
-├── Backened/ # .NET Core API
-│ ├── src/
-│ │ ├── Million.Api/ # API Controllers
-│ │ ├── Million.Application/ # Business logic
-│ │ ├── Million.Domain/ # Models and entities
-│ │ └── Million.Infrastructure/# Data access
-│ └── tests/ # Unit tests
-│
-└── docker-compose.yml # Docker configuration
-└── mongo-init.js # MongoDB DB configuration file
-└── workspace # VSCode workspace
-└── README.md
 
-
-## 💻 Usage
 
 ### 🌐 Access the Application
 - Frontend: [http://localhost:3000](http://localhost:3000)
