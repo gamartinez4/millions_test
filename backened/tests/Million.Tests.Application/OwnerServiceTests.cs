@@ -146,7 +146,7 @@ namespace Million.Tests.Application
         public async Task GetOwnerByIdAsync_ShouldReturnNull_WhenOwnerNotExists()
         {
             // Arrange
-            _mockOwnerRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Owner?)null);
+            _mockOwnerRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Owner)null);
 
             // Act
             var result = await _ownerService.GetOwnerByIdAsync(999);
@@ -188,7 +188,7 @@ namespace Million.Tests.Application
         {
             // Arrange
             var updateRequest = new OwnerRequest { Name = "New Name" };
-            _mockOwnerRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Owner?)null);
+            _mockOwnerRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Owner)null);
 
             // Act
             await _ownerService.UpdateOwnerAsync(999, updateRequest);
@@ -215,7 +215,7 @@ namespace Million.Tests.Application
         public async Task DeleteOwnerAsync_ShouldNotDelete_WhenOwnerNotExists()
         {
             // Arrange
-            _mockOwnerRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Owner?)null);
+            _mockOwnerRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((Owner)null);
 
             // Act
             await _ownerService.DeleteOwnerAsync(999);

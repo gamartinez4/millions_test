@@ -67,7 +67,9 @@ export const propertyService = {
 	 */
 	getToken() {
 		if (typeof window !== 'undefined') {
-			return localStorage.getItem('token')
+			const token = localStorage.getItem('token')
+			// Return token with Bearer prefix if it doesn't already have it
+			return token ? (token.startsWith('Bearer ') ? token : `Bearer ${token}`) : null
 		}
 		return null
 	},
@@ -190,37 +192,37 @@ export const propertyService = {
 		try {
 			const token = this.getToken()
 			
-			console.log('PropertyService: buyProperty called', { propertyId, newOwnerId, hasToken: !!token })
-			
 			if (!token) {
 				throw new Error('Authentication token not found')
 			}
 
-			console.log('PropertyService: Calling buy-property API')
-			
-			// Use the consolidated buy-property endpoint
-			const response = await axios.patch('/api/properties/buy-property', 
-				{ 
-					propertyId: propertyId,
-					newOwnerId: newOwnerId 
-				},
+			console.log('Buying property:', { propertyId, newOwnerId, token: token.substring(0, 20) + '...' })
+
+			// First, change forSale to false
+			await axios.patch(`/api/properties/update-for-sale?propertyId=${propertyId}`, 
+				{ forSale: false },
 				{
 					headers: {
-						Authorization: `Bearer ${token}`,
+						Authorization: token,
 						'Content-Type': 'application/json'
 					}
 				}
 			)
 
-			console.log('PropertyService: buy-property response:', response.status, response.data)
-			console.log('PropertyService: Property purchased successfully:', { propertyId, newOwnerId })
+			// Then, update the owner
+			await axios.patch(`/api/properties/update-owner?propertyId=${propertyId}`, 
+				{ ownerId: newOwnerId },
+				{
+					headers: {
+						Authorization: token,
+						'Content-Type': 'application/json'
+					}
+				}
+			)
+
+			console.log('Property purchased successfully:', { propertyId, newOwnerId })
 		} catch (error) {
-			console.error('PropertyService: Buy property failed:', {
-				status: error.response?.status,
-				statusText: error.response?.statusText,
-				data: error.response?.data,
-				message: error.message
-			})
+			console.error('PropertyService: Buy property failed:', error.response?.data || error.message)
 			throw error
 		}
 	}

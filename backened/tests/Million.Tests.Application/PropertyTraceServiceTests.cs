@@ -10,21 +10,18 @@ using System;
 using System.Linq.Expressions;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Extensions.Logging;
 
 namespace Million.Tests.Application
 {
     public class PropertyTraceServiceTests
     {
         private readonly Mock<IPropertyTraceRepository> _mockTraceRepository;
-        private readonly Mock<ILogger<PropertyTraceService>> _mockLogger;
         private readonly PropertyTraceService _traceService;
 
         public PropertyTraceServiceTests()
         {
             _mockTraceRepository = new Mock<IPropertyTraceRepository>();
-            _mockLogger = new Mock<ILogger<PropertyTraceService>>();
-            _traceService = new PropertyTraceService(_mockTraceRepository.Object, _mockLogger.Object);
+            _traceService = new PropertyTraceService(_mockTraceRepository.Object);
         }
 
         [Fact]
@@ -91,7 +88,7 @@ namespace Million.Tests.Application
         public async Task GetTraceByIdAsync_ShouldReturnNull_WhenTraceNotExists()
         {
             // Arrange
-            _mockTraceRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyTrace?)null);
+            _mockTraceRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyTrace)null);
 
             // Act
             var result = await _traceService.GetTraceByIdAsync(999);
@@ -178,7 +175,7 @@ namespace Million.Tests.Application
                 Value = 250000m, 
                 Tax = 25000m 
             };
-            _mockTraceRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyTrace?)null);
+            _mockTraceRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyTrace)null);
 
             // Act
             await _traceService.UpdateTraceAsync(999, updateRequest);
@@ -205,7 +202,7 @@ namespace Million.Tests.Application
         public async Task DeleteTraceAsync_ShouldNotDelete_WhenTraceNotExists()
         {
             // Arrange
-            _mockTraceRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyTrace?)null);
+            _mockTraceRepository.Setup(repo => repo.GetByIdAsync(999)).ReturnsAsync((PropertyTrace)null);
 
             // Act
             await _traceService.DeleteTraceAsync(999);

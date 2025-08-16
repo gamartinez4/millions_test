@@ -108,7 +108,7 @@ const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 				return
 			}
 
-			console.log('Attempting to buy property:', { propertyId: property.id, userId: user.id })
+			console.log('Attempting to buy property:', { propertyId: property.id, userId: user.id, userIdType: typeof user.id })
 
 			const success = await buyProperty(property.id, user.id)
 			
@@ -150,13 +150,6 @@ const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 			showSnackbar(buyError, 'error')
 		}
 	}, [buyError])
-
-	// Debug user data (can be removed in production)
-	useEffect(() => {
-		if (user) {
-			console.log('Dashboard user data:', user)
-		}
-	}, [user])
 
 	return (
 		<Box sx={{ minHeight: '100vh', bgcolor: 'grey.50' }}>
@@ -264,17 +257,6 @@ const DashboardContent = ({ user, allProperties, imagesLoading }) => {
 							{filteredProperties.map((property) => {
 								const isOwned = isPropertyOwned(property, user)
 								const firstImage = getFirstPropertyImage(property)
-								
-								// Debug property info (can be removed in production)
-								if (property.forSale && !isOwned) {
-									console.log('Property available for purchase:', {
-										id: property.id,
-										name: property.name,
-										forSale: property.forSale,
-										isOwned,
-										userId: user?.id
-									})
-								}
 								
 								return (
 									<Grid xs={12} sm={6} lg={4} key={property.id}>

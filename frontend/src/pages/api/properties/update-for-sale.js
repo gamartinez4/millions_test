@@ -21,7 +21,7 @@ export default async function handler(req, res) {
 			}
 
 			const response = await axios.patch(
-				`http://backend:5249/api/properties/${propertyId}/for-sale`,
+				`${API_BASE_URL}/api/properties/${propertyId}/for-sale`,
 				{ forSale },
 				{
 					headers: {

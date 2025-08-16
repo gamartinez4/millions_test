@@ -19,13 +19,16 @@ export default async function handler(req, res) {
 			}
 
 			// Validate ownerId: must be an integer or null
-			if (ownerId !== null && !Number.isInteger(ownerId)) {
+			if (ownerId !== null && !Number.isInteger(Number(ownerId))) {
 				return res.status(400).json({ message: 'Invalid "ownerId" value. Must be an integer or null.' })
 			}
 
+			// Convert ownerId to number if it's a string
+			const numericOwnerId = ownerId !== null ? Number(ownerId) : null
+
 			const response = await axios.patch(
-				`http://backend:5249/api/properties/${propertyId}/owner`,
-				{ ownerId },
+				`${API_BASE_URL}/api/properties/${propertyId}/owner`,
+				{ ownerId: numericOwnerId },
 				{
 					headers: {
 						Authorization: token,

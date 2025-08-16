@@ -20,8 +20,6 @@ export const useBuyProperty = () => {
 			setLoading(true)
 			setError(null)
 
-			console.log('useBuyProperty: Starting buy process', { propertyId, newOwnerId })
-
 			if (!propertyId || !newOwnerId) {
 				throw new Error('Property ID and new owner ID are required')
 			}
@@ -29,11 +27,10 @@ export const useBuyProperty = () => {
 			// Call the property service to buy the property
 			await propertyService.buyProperty(propertyId, newOwnerId)
 
-			console.log('useBuyProperty: Purchase successful')
 			setLoading(false)
 			return true
 		} catch (err) {
-			console.error('useBuyProperty: Buy property error:', err)
+			console.error('Buy property error:', err.message)
 			setError(err.message || 'Error al comprar la propiedad')
 			setLoading(false)
 			return false
