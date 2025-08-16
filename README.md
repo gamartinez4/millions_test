@@ -131,21 +131,7 @@ docker-compose restart mongodb
 | Backend  | 5249   |
 | MongoDB  | 27017  |
 
-## 👨‍💻 Development
 
-### Frontend
-```bash
-cd Frontend
-npm install
-npm run dev
-```
-
-### Backend
-```bash
-cd Backened
-dotnet restore
-dotnet run --project src/Million.Api
-```
 
 ## 👨‍💻 Unit Testing
 
